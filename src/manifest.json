@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Selection Changed",
+      "identifier": "autorename.selection-changed-identifier",
+      "script": "./selection-changed.js",
+      "handlers": {
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Selection Changed",
+      "identifier": "autorename.selection-changed-identifier",
+      "script": "__selection-changed.js",
+      "handlers": {
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged"
+        }
+      }
+    }
+  ],
+  "version": "0.1.2",
+  "description": "",
+  "name": "autorename",
+  "identifier": "autorename",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "dchahla",
+  "authorEmail": "dchahla@gmail.com"
+}

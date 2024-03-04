@@ -1,0 +1,27 @@
+{
+  "name": "autorename",
+  "description": "",
+  "version": "0.1.2",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "autorename",
+    "manifest": "src/manifest.json",
+    "main": "autorename.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.9.5"
+  },
+  "author": "dchahla <dchahla@gmail.com>"
+}
