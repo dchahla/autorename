@@ -2,7 +2,7 @@
   "name": "autorename",
   "description": "Lightweight, low-fi Auto Name Group ( ⌘ + g ) Sketch Plugin",
   "repository": "git@github.com:dchahla/autorename.git",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
