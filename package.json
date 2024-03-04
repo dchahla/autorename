@@ -1,5 +1,5 @@
 {
-  "name": "autorename",
+  "name": "lightweight-autorename",
   "description": "Lightweight, low-fi Auto Name Group ( ⌘ + g ) Sketch Plugin",
   "repository": "git@github.com:dchahla/autorename.git",
   "version": "1.0.0",
