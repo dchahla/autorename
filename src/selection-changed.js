@@ -57,7 +57,8 @@ export function onSelectionChanged (context) {
         selectedLayersContext.forEach(layer => {
           if (layer.layers && layer.layers.length) {
             const firstText = getFirstTextElement(layer.layers.reverse())
-            if (firstText && firstText.text) layer.name = firstText.text
+            if (firstText && firstText.text)
+              layer.name = firstText.text.replaceAll('/', '')
           }
         })
       }
