@@ -2,6 +2,9 @@
 <rss xmlns:sparkle="https://chahla.net/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <enclosure url="https://github.com/dchahla/autorename/releases/download/v3.0.0/autorename.sketchplugin.zip" sparkle:version="3.0.0"/>
+    </item>
+    <item>
       <enclosure url="https://github.com/dchahla/autorename/releases/download/v2.0.0/autorename.sketchplugin.zip" sparkle:version="2.0.0"/>
     </item>
     <item>
